@@ -31,7 +31,7 @@ pipeline {
                 sh'''
                 test -f build/index.html
                 npm test
-                Hello Jenkins
+                echo "Hello Jenkins"
                 '''
             }
         }
